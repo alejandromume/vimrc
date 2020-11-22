@@ -138,6 +138,12 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'benmills/vimux'
+Plug 'goballooning/vim-conque'
+Plug 'alvan/vim-closetag'
+Plug 'yuezk/vim-js'
+
 
 call plug#end()
 
