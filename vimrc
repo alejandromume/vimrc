@@ -107,34 +107,19 @@ let g:lightline = {
 
 call plug#begin("~/.vim/plugged")
 
-" Temas
-" Plug 'morhetz/gruvbox'
-
-" IDE
-" Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
-
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'vim-scripts/AutoComplPop'
-Plug 'pangloss/vim-javascript'
 Plug 'itchyny/lightline.vim'
-" Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'neoclide/coc.nvim'
-"Plug 'Townk/vim-autoclose'
-"Plug 'davidhalter/jedi-vim'
 Plug 'jiangmiao/auto-pairs'
-"Plug 'dkarter/bullets.vim'
-"Plug 'tmsvg/pear-tree'
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
  Plug 'prettier/vim-prettier', {
    \ 'do': 'yarn install',
    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
-"Plug 'SirVer/ultisnips'
-"Plug 'honza/vim-snippets'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
@@ -142,9 +127,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'benmills/vimux'
 Plug 'goballooning/vim-conque'
 Plug 'alvan/vim-closetag'
-Plug 'yuezk/vim-js'
-
-
+Plug 'phpactor/phpactor'
+Plug 'HerringtonDarkholme/yats.vim'
 call plug#end()
 
 let &t_SI = "\<esc>[5 q"  " blinking I-beam in insert mode
